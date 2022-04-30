@@ -1,0 +1,35 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [
+		{"path": "pages/index/index",
+			"style":{
+				"usingComponents":{
+					"header-big":"/components/headerBig",
+					"weight-show":"/components/weightShow",
+					"weight-statistics":"/components/weightStatistics"
+					
+				},
+				"onReachBottomDistance": 50
+			}
+		}, 
+		{"path": "pages/uName/uName"},
+		{"path": "pages/uMessage/uMessage",
+			"style":{
+				"usingComponents":{
+					"choice-item":"/components/choiceItem"
+				}
+			} 
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+			"titleNView":false
+		}
+	}
+	
+}

@@ -1,0 +1,23 @@
+{
+  "name": "weight_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.10.2",
+    "dayjs": "^1.11.1",
+    "uview-ui": "^2.0.29",
+    "vant": "^3.4.7"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "vite-plugin-style-import": "^1.4.1"
+  }
+}
